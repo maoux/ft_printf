@@ -36,6 +36,8 @@ void			padding_int(t_format *env, t_arg *arg,
 		nbc = ft_count_base_nb(to_print, 16) + arg->nb_of_zero;
 	else if (arg->type == OCTAL)
 		nbc = ft_count_base_nb(to_print, 8) + arg->nb_of_zero;
+	else if (arg->type == U_BIN)
+		nbc = ft_count_base_nb(to_print, 2) + arg->nb_of_zero;
 	else
 		nbc = ft_count_nb(to_print) + arg->nb_of_zero;
 	if (arg->precision_is_set && to_print == 0 && arg->precision == 0)
