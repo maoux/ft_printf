@@ -128,8 +128,6 @@ void			write_wstr_in_buffer(t_format *env, t_arg *arg, va_list ap,
 									char buffer[BUF_SIZE]);
 void			write_bin_in_buffer(t_format *env, t_arg *arg, va_list ap,
 									char buffer[BUF_SIZE]);
-void			write_float_in_buffer(t_format *env, t_arg *arg, va_list ap,
-									char buffer[BUF_SIZE]);
 
 /*
 ** Fonctions d'affichage

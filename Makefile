@@ -37,8 +37,7 @@ FILES_SRC = ft_printf.c\
 		write_ptr_in_buffer.c\
 		write_wchar_in_buffer.c\
 		write_wstr_in_buffer.c\
-		write_bin_in_buffer.c\
-		write_float_in_buffer.c
+		write_bin_in_buffer.c
 
 FILES_LIB = ft_isdigit.c\
 			ft_isdigit_nozero.c\
